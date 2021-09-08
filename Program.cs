@@ -16,9 +16,12 @@ namespace Programa_de_desucnetos
         static void Main(string[] args)
         {
             Console.WriteLine("ingrse el valor de la compra ");
+            Console.WriteLine("ingrese el valor de compra ");
             double Compra = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("ingrese un numero del 1 al 7 para definir que dia dela semana\n " +
                 " tomando en cuenta que domingo es representado por el numero 1 ");
+            Console.WriteLine("ingrese un numero del 1 al 7 para definir que dia de la semana es  " +
+                " tomando en cuenta que domingo es tiene el valor del numero 1 ");
             int Dia = int.Parse(Console.ReadLine());
 
             Clscompras clsCompra = new Clscompras(Compra, Dia);
