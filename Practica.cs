@@ -13,7 +13,7 @@ namespace Practica_de__clase
             int dato = 1;
             while (dato == 1)
             {
-                Console.WriteLine("Coloca el dogotp para sacar tu dinero");
+                Console.WriteLine("Coloca el digito para sacar tu dinero");
                 int x = Convert.ToInt32(Console.ReadLine());
                 if (x % 5 == 0)
                 {
